@@ -1,26 +1,26 @@
-# Single line comments start with a number symbol.
+### Однострочные комментарии начинаюся со знака #.
 
-""" Multiline strings can be written
-    using three "s, and are often used
-    as comments
+""" Многострочные комменты можно писать
+    через три кавычки,
+    двойные или одинарные
 """
 
-####################################################
-## 1. Primitive Datatypes and Operators
-####################################################
+################################
+## 1. Базовые типы и операции ##
+################################
 
-# You have numbers
+### Числа
 3  # => 3
 
-# Math is what you would expect
+### Математика работает стандартно
 1 + 1   # => 2
 8 - 1   # => 7
 10 * 2  # => 20
 
-# Except division which returns floats, real numbers, by default
+### Кроме деления, которое возвращает по умолчанию float
 35 / 5  # => 7.0
 
-# Result of integer division truncated down both for positive and negative.
+### Целочисленное деление всегда округляется вниз, для положительных и отрицательных чисел
 5 // 3       # => 1
 5.0 // 3.0   # => 1.0 # works on floats too
 -5 // 3      # => -2
